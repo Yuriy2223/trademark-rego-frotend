@@ -22,21 +22,21 @@
   @include media(desktop) {
     display: flex;
     justify-content: space-between;
+    padding: 0 100px 30px;
   }
 }
 .services-our-wrapper {
   width: 310px;
-  // margin: 0 auto;
+  margin: 0 auto;
   @include media(tablet) {
-    width: 700px;
+    width: 520px;
   }
   @include media(max-tablet) {
-    width: 580px;
-    padding-left: 20px;
+    width: 520px;
   }
   @include media(desktop) {
-    width: 700px;
-    padding-left: 20px;
+    margin: 0;
+    width: 610px;
   }
 }
 .services-our-title {
@@ -45,6 +45,7 @@
   line-height: 1.6;
   color: $color-primary;
   margin-bottom: 20px;
+  text-align: center;
   @include media(tablet) {
     font-size: 24px;
     line-height: 1.33;
@@ -59,22 +60,9 @@
   }
 }
 .services-our-wrapper-list {
-  // width: 310px;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  // margin: 0 auto;
-  // @include media(tablet) {
-  //   width: 700px;
-  // }
-  @include media(max-tablet) {
-    // width: 580px;
-    padding-left: 20px;
-  }
-  @include media(desktop) {
-    // width: 580px;
-    padding-left: 20px;
-  }
 
   li {
     font-family: $font-family-primary;
@@ -99,31 +87,34 @@
 }
 .member-wrapper {
   padding-top: 26px;
-  width: 310px;
   @include media(tablet) {
-    width: 700px;
+    width: 520px;
+    margin: 0 auto;
   }
   @include media(max-tablet) {
     padding-top: 0;
-    width: 580px;
   }
   @include media(desktop) {
     padding-top: 0;
-    width: 700px;
+    width: 432px;
   }
 }
 .member-list {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   width: 310px;
   margin: 0 auto 26px;
   @include media(tablet) {
     width: 700px;
   }
   @include media(max-tablet) {
+    width: 338px;
+    margin: 0 20px 26px;
   }
   @include media(desktop) {
+    margin: 0 20px 26px;
+    width: 415px;
   }
 }
 .member-list li {
@@ -140,9 +131,9 @@
 
   &:hover,
   &:active {
-    color: $color-green;
+    color: $color-light-red;
     &::after {
-      background-color: $color-green;
+      background-color: $color-light-red;
     }
   }
 
@@ -191,6 +182,7 @@
   @include media(tablet) {
     font-size: 16px;
     line-height: 1.71;
+    margin: 0 auto;
   }
   @include media(max-tablet) {
     font-size: 16px;
@@ -206,8 +198,10 @@
   @include media(tablet) {
   }
   @include media(max-tablet) {
+    padding: 32px 0 0;
   }
   @include media(desktop) {
+    padding: 32px 80px 0;
   }
 }
 .declarations-title {
@@ -219,6 +213,23 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  @include media(tablet) {
+    width: 520px;
+    margin: 0 auto;
+  }
+  @include media(max-tablet) {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+  }
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    gap: 20px;
+  }
 }
 .declarations-item {
   width: 342px;
@@ -230,23 +241,15 @@
     width: 700px;
   }
   @include media(max-tablet) {
-    width: 900px;
+    width: 49%;
   }
   @include media(desktop) {
-    // width: 342px;
+    width: 49%;
   }
 }
 .declarations-item img {
   width: 32px;
   height: 100%;
-  @include media(tablet) {
-  }
-  @include media(max-tablet) {
-    // width: 28px;
-    // height: 40px;
-  }
-  @include media(desktop) {
-  }
 }
 .declarations-item a {
   position: relative;
@@ -256,12 +259,15 @@
   text-align: center;
   color: $color-primary;
   padding: 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
   &:hover,
   &:active {
-    color: $color-green;
+    color: $color-light-red;
     &::after {
-      background-color: $color-green;
+      background-color: $color-light-red;
     }
   }
 
@@ -294,8 +300,6 @@
     bottom: 9px;
   }
   @include media(desktop) {
+    bottom: 10px;
   }
 }
-// .declarations-item a:hover::after {
-//   color: $color-green;
-// }
