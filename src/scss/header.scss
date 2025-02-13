@@ -27,24 +27,6 @@
   width: 340px;
   height: 62px;
   position: relative;
-
-  &:hover,
-  &:active {
-    &::after {
-      width: 100%;
-      background-color: $color-primary;
-    }
-  }
-}
-.header-top-logo-link::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 0;
-  height: 6px;
-  background-color: $color-white;
-  transition: width 650ms ease-in-out;
 }
 .header-bottom-logo-link {
   position: relative;
@@ -92,10 +74,12 @@
     padding: 35px 40px;
   }
   @include media(max-tablet) {
-    padding: 25px 80px;
+    padding: 0 80px;
+    height: 80px;
   }
   @include media(desktop) {
-    padding: 25px 190px;
+    padding: 0 190px;
+    height: 80px;
   }
 }
 .header-inner {
@@ -132,15 +116,6 @@
       height: 5px;
     }
   }
-
-  &:hover,
-  &:active {
-    color: $color-light-red;
-
-    &::after {
-      background-color: $color-light-red;
-    }
-  }
   @include media(tablet) {
     font-size: 36px;
     line-height: 1;
@@ -171,7 +146,7 @@
 
     &:hover svg,
     &:active svg {
-      color: $color-light-red;
+      color: $color-green;
       transform: scale(1.1);
     }
   }
@@ -192,7 +167,6 @@
 
   &:hover svg,
   &:active svg {
-    color: $color-light-red;
     transform: scale(1.2);
   }
 
@@ -215,6 +189,7 @@
 .nav-menu {
   display: none;
   width: 100%;
+  height: 100%;
   @include media(max-tablet) {
     display: flex;
     align-items: center;
@@ -234,36 +209,22 @@
 }
 .menu-link {
   position: relative;
-  padding: 6px;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
   color: $color-white;
   display: inline-flex;
+  padding: 24px 9px;
 
   &:hover,
   &:active {
-    color: $color-light-red;
-    &::after {
-      width: calc(100% - 12px);
-      background-color: $color-white;
-    }
+    background-color: $color-hover-menu;
   }
 
   @include media(desktop) {
     font-size: 24px;
+    padding: 21px 13px;
   }
-}
-.menu-link::after {
-  content: '';
-  position: absolute;
-  left: 7px;
-  right: 8px;
-  bottom: 1px;
-  width: 0;
-  height: 3px;
-  background-color: $color-primary;
-  transition: width 300ms ease;
 }
 .header-language-wrapper {
   display: flex;
@@ -290,7 +251,6 @@
 .language-en {
   &:hover,
   &:active {
-    color: $color-light-red;
     text-decoration: underline;
   }
 }
@@ -347,7 +307,6 @@
 
   &:hover svg,
   &:active svg {
-    stroke: $color-light-red;
     transform: scale(1.2);
   }
 }
@@ -372,7 +331,6 @@
 
   &:hover,
   &:active {
-    color: $color-light-red;
     &::after {
       width: calc(100% - 12px);
       background-color: $color-white;
@@ -390,7 +348,3 @@
   background-color: $color-primary;
   transition: all 300ms ease;
 }
-// .menu-link.active {
-//   font-weight: bold;
-//   color: red;
-// }
