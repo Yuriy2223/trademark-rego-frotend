@@ -8,11 +8,13 @@
     "build": "vite build --base=/trademark-rego-frotend/",
     "preview": "vite preview",
     "build:preview": "vite build && vite preview",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "fast-glob": "^3.3.3",
+    "gh-pages": "^6.3.0",
     "sass": "^1.84.0",
     "sharp": "^0.33.5",
     "vite": "^6.1.0",
