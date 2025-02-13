@@ -1,0 +1,301 @@
+@use './common/index' as *;
+
+.our-services-container {
+  padding: 26px 16px;
+  @include media(tablet) {
+    padding: 34px 16px;
+  }
+  @include media(max-tablet) {
+    padding: 60px 16px;
+  }
+  @include media(desktop) {
+    padding: 60px 16px;
+  }
+}
+.services-inner-container {
+  padding-bottom: 26px;
+  border-bottom: 1px solid $color-soft-blue;
+  @include media(max-tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.services-our-wrapper {
+  width: 310px;
+  // margin: 0 auto;
+  @include media(tablet) {
+    width: 700px;
+  }
+  @include media(max-tablet) {
+    width: 580px;
+    padding-left: 20px;
+  }
+  @include media(desktop) {
+    width: 700px;
+    padding-left: 20px;
+  }
+}
+.services-our-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.6;
+  color: $color-primary;
+  margin-bottom: 20px;
+  @include media(tablet) {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  @include media(max-tablet) {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  @include media(desktop) {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}
+.services-our-wrapper-list {
+  // width: 310px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  // margin: 0 auto;
+  // @include media(tablet) {
+  //   width: 700px;
+  // }
+  @include media(max-tablet) {
+    // width: 580px;
+    padding-left: 20px;
+  }
+  @include media(desktop) {
+    // width: 580px;
+    padding-left: 20px;
+  }
+
+  li {
+    font-family: $font-family-primary;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: $color-black;
+    list-style: initial;
+    @include media(tablet) {
+      font-size: 16px;
+      line-height: 1.71;
+    }
+    @include media(max-tablet) {
+      font-size: 16px;
+      line-height: 1.71;
+    }
+    @include media(desktop) {
+      font-size: 18px;
+      line-height: 2;
+    }
+  }
+}
+.member-wrapper {
+  padding-top: 26px;
+  width: 310px;
+  @include media(tablet) {
+    width: 700px;
+  }
+  @include media(max-tablet) {
+    padding-top: 0;
+    width: 580px;
+  }
+  @include media(desktop) {
+    padding-top: 0;
+    width: 700px;
+  }
+}
+.member-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 310px;
+  margin: 0 auto 26px;
+  @include media(tablet) {
+    width: 700px;
+  }
+  @include media(max-tablet) {
+  }
+  @include media(desktop) {
+  }
+}
+.member-list li {
+  color: $color-primary;
+  list-style: initial;
+}
+.member-link {
+  position: relative;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $color-primary;
+  padding: 4px 0;
+
+  &:hover,
+  &:active {
+    color: $color-green;
+    &::after {
+      background-color: $color-green;
+    }
+  }
+
+  @include media(tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(max-tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+.member-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 100%;
+  height: 1px;
+  background-color: $color-primary;
+  transition: width 300ms ease;
+}
+.member-btn {
+  border-radius: 4px;
+  width: 342px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.29;
+  color: $color-white;
+  background-color: $color-primary;
+
+  &:hover,
+  &:active {
+    background-color: $color-green;
+  }
+
+  @include media(tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(max-tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+.declarations-wrapper {
+  padding: 32px 0;
+  @include media(tablet) {
+  }
+  @include media(max-tablet) {
+  }
+  @include media(desktop) {
+  }
+}
+.declarations-title {
+  @include media(mobile) {
+    font-size: 18px;
+  }
+}
+.declarations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.declarations-item {
+  width: 342px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  @include media(tablet) {
+    width: 700px;
+  }
+  @include media(max-tablet) {
+    width: 900px;
+  }
+  @include media(desktop) {
+    // width: 342px;
+  }
+}
+.declarations-item img {
+  width: 32px;
+  height: 100%;
+  @include media(tablet) {
+  }
+  @include media(max-tablet) {
+    // width: 28px;
+    // height: 40px;
+  }
+  @include media(desktop) {
+  }
+}
+.declarations-item a {
+  position: relative;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.64;
+  text-align: center;
+  color: $color-primary;
+  padding: 4px 0;
+
+  &:hover,
+  &:active {
+    color: $color-green;
+    &::after {
+      background-color: $color-green;
+    }
+  }
+
+  @include media(tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(max-tablet) {
+    font-size: 16px;
+    line-height: 1.71;
+  }
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
+.declarations-item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  width: 100%;
+  height: 1px;
+  background-color: $color-primary;
+  transition: width 300ms ease;
+  @include media(tablet) {
+    bottom: 8px;
+  }
+  @include media(max-tablet) {
+    bottom: 9px;
+  }
+  @include media(desktop) {
+  }
+}
+// .declarations-item a:hover::after {
+//   color: $color-green;
+// }

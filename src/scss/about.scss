@@ -1,0 +1,7 @@
+@use './common/index' as *;
+
+.about {
+  width: 100%;
+  height: 100px;
+  background-color: $color-primary;
+}

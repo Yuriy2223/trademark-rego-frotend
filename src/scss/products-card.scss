@@ -1,0 +1,330 @@
+@use './common/index' as *;
+
+/**************** Product CARD *******************/
+
+.product-card-section-inner {
+  display: flex;
+  flex-direction: column;
+  @include media(mobile) {
+    margin-bottom: 20px;
+  }
+  @include media(max-tablet) {
+    flex-direction: row;
+    align-items: center;
+    background-color: $color-blue-gray;
+  }
+  @include media(desktop) {
+    flex-direction: row;
+    align-items: center;
+    background-color: $color-blue-gray;
+  }
+}
+.product-card-container-img {
+  background-color: $color-blue-gray;
+  @include media(max-tablet) {
+    background-color: transparent;
+    flex: 1;
+  }
+  @include media(desktop) {
+    background-color: transparent;
+    flex: 1;
+  }
+}
+.product-card-inner-img {
+  width: 375px;
+  padding: 0 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include media(tablet) {
+    width: 768px;
+  }
+  @include media(max-tablet) {
+    width: 496px;
+    height: 366px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  @include media(desktop) {
+    width: 704px;
+    padding: 0;
+
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+.product-card-img {
+  width: 100%;
+  height: 241px;
+  @include media(tablet) {
+    height: 400px;
+  }
+  @include media(max-tablet) {
+    height: 366px;
+  }
+  @include media(desktop) {
+    height: 485px;
+  }
+}
+.product-card-container-content {
+  @include media(mobile) {
+    background-color: $color-white;
+  }
+  @include media(tablet) {
+    background-color: $color-white;
+  }
+  @include media(max-tablet) {
+    flex: 1;
+  }
+  @include media(desktop) {
+    flex: 1;
+  }
+}
+.product-card-inner-content {
+  padding: 24px 0;
+  @include media(tablet) {
+    padding: 28px 0 64px;
+  }
+  @include media(max-tablet) {
+    height: 366px;
+    width: 496px;
+    margin-right: auto;
+    margin-left: 0;
+    padding: 80px 0 60px;
+  }
+  @include media(desktop) {
+    width: 704px;
+    margin-right: auto;
+    padding: 0;
+  }
+}
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  color: $color-primary;
+  text-align: center;
+  @include media(tablet) {
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
+  @include media(max-tablet) {
+    font-size: 40px;
+    margin-bottom: 37px;
+  }
+  @include media(desktop) {
+    font-size: 60px;
+    line-height: 0.8;
+    margin-bottom: 37px;
+  }
+}
+.product-card-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  color: $color-grey;
+  margin-bottom: 34px;
+  text-align: center;
+  @include media(tablet) {
+    margin-bottom: 48px;
+    font-size: 26px;
+  }
+  @include media(max-tablet) {
+    font-size: 26px;
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+  @include media(desktop) {
+    margin-bottom: 70px;
+    font-size: 34px;
+    line-height: 1;
+  }
+}
+.product-card-btn-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  @include media(tablet) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 54px;
+  }
+  @include media(max-tablet) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 9px;
+  }
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 11px;
+  }
+}
+.product-card-btn {
+  border-radius: 4px;
+  width: 209px;
+  height: 34px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $color-white;
+  background-color: $color-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &:active,
+  &:hover {
+    background-color: $color-green;
+  }
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.6;
+    width: 264px;
+    height: 44px;
+  }
+}
+.container-product-card-list {
+  @include media(max-tablet) {
+    padding-top: 40px;
+  }
+
+  @include media(desktop) {
+    padding-top: 50px;
+  }
+}
+.product-card-list {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-auto-rows: 275px;
+  @include media(tablet) {
+    gap: 48px;
+    grid-template-columns: repeat(2, 280px);
+    grid-auto-rows: 201px;
+  }
+  @include media(max-tablet) {
+    gap: 40px;
+    grid-template-columns: repeat(4, 205px);
+    grid-auto-rows: 201px;
+  }
+  @include media(desktop) {
+    gap: 54px;
+    grid-template-columns: repeat(4, 280px);
+    grid-auto-rows: 275px;
+  }
+}
+.product-card-item {
+  border: 1px solid $color-primary;
+  border-radius: 4px;
+}
+.product-card-link {
+  position: relative;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    box-shadow: $box-shadow;
+  }
+}
+.product-card-imgages {
+  border-radius: 4px;
+}
+.product-card-text-wrap {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 43%;
+  padding: 8px;
+  background-color: $color-soft-blue;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  P {
+    width: 229px;
+    max-height: 100%;
+    color: $color-white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    @include media(max-tablet) {
+      width: 167px;
+      font-size: 14px;
+      line-height: 1.29;
+    }
+  }
+}
+
+/*************** Pagination *****************/
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 40px 0;
+}
+.pagination-btn {
+  color: $color-primary;
+  border: none;
+  background-color: transparent;
+  border-radius: 4px;
+  width: 44px;
+  height: 44px;
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: $color-primary;
+
+    &:hover {
+      fill: $color-green;
+    }
+  }
+  &:disabled {
+    color: $color-grey;
+    cursor: default;
+  }
+}
+.pagination-numbers {
+  display: flex;
+  gap: 5px;
+}
+.page-number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+
+  border-radius: 4px;
+  width: 44px;
+  height: 44px;
+
+  background-color: $color-white;
+  color: $color-primary;
+  border: 1px solid $color-primary;
+
+  &.active {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
+.dots {
+  color: $color-grey;
+}
