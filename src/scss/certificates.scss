@@ -12,13 +12,11 @@
     flex-direction: row;
     align-items: center;
     background-color: $color-blue-gray;
-    padding-bottom: 30px;
   }
   @include media(desktop) {
     flex-direction: row;
     align-items: center;
     background-color: $color-blue-gray;
-    padding-bottom: 30px;
   }
 }
 .certificates-section-img {
@@ -94,6 +92,7 @@
     width: 496px;
     margin-right: auto;
     margin-left: 0;
+    padding: 54px 0;
   }
   @include media(desktop) {
     width: 704px;
@@ -112,11 +111,11 @@
     margin-bottom: 24px;
   }
   @include media(max-tablet) {
-    font-size: 40px;
-    margin-bottom: 37px;
+    font-size: 36px;
+    margin-bottom: 25px;
   }
   @include media(desktop) {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 0.8;
     margin-bottom: 37px;
   }
@@ -133,13 +132,13 @@
     font-size: 26px;
   }
   @include media(max-tablet) {
-    font-size: 26px;
+    font-size: 34px;
     line-height: 1;
     margin-bottom: 50px;
   }
   @include media(desktop) {
     margin-bottom: 70px;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 1;
   }
 }
