@@ -40,4 +40,4 @@ npm run build - побудувати проект для продакшн сер
 
 npm run deploy - деплой на GitHub Pages
 
-1111111111111111111111
+1111111111111111111111 // "build": "vite build --base=/trademark-rego-frotend/",

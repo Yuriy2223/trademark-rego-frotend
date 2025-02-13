@@ -6,6 +6,7 @@ import FullReload from 'vite-plugin-full-reload';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig({
+  // base: '/',
   resolve: {
     alias: {
       '@fonts': path.resolve(__dirname, 'src/fonts'),
