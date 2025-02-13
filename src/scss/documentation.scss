@@ -12,13 +12,11 @@
     flex-direction: row;
     align-items: center;
     background-color: $color-blue-gray;
-    padding-bottom: 30px;
   }
   @include media(desktop) {
     flex-direction: row;
     align-items: center;
     background-color: $color-blue-gray;
-    padding-bottom: 30px;
   }
 }
 .documentation-section-img {
@@ -113,11 +111,11 @@
   }
   @include media(max-tablet) {
     font-size: 40px;
-    margin-bottom: 37px;
+    margin-bottom: 26px;
   }
   @include media(desktop) {
     font-size: 60px;
-    line-height: 0.8;
+    line-height: 1.3;
     margin-bottom: 37px;
   }
 }
