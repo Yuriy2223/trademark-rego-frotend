@@ -50,7 +50,7 @@ export default defineConfig({
       '@fonts': path.resolve(__dirname, 'src/fonts'),
     },
   },
-  // base: '/trademark-rego-frotend/', // шлях до репозиторію
+  base: '/trademark-rego-frotend/', // шлях до репозиторію
   root: 'src',
   build: {
     outDir: '../dist',
