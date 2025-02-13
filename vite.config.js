@@ -7,21 +7,18 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 export default defineConfig({
   // base: '/',
-  resolve: {
-    alias: {
-      '@fonts': path.resolve(__dirname, 'src/fonts'),
-    },
-  },
-  // base: '/trademark-rego-frotend/', // шлях до репозиторію
+  // base: '/trademark-rego-frotend/',
   root: 'src',
   build: {
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
-      // використовуємо fast-glob для пошуку файлів
-      input: fg.sync('./src/*.html'), // використовуємо синхронний метод
-      // Враховуємо всі HTML-файли у підпапках
-      // input: fg.sync(['./src/*.html', './src/pages/*.html']),
+      input: fg.sync('./src/*.html'),
+    },
+  },
+  resolve: {
+    alias: {
+      '@fonts': path.resolve(__dirname, 'src/fonts'),
     },
   },
   plugins: [
