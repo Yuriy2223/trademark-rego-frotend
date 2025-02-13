@@ -91,29 +91,20 @@
     margin-bottom: 10px;
   }
 }
-.logo-rego {
+.footer-logo-rego {
   width: 113px;
   height: 31px;
-  background-image: url(../img/footer/logo-rego.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   @include media(desktop) {
     width: 136px;
     height: 37px;
   }
 }
-.logo-goddard {
+.footer-logo-goddard {
   width: 200px;
   height: 52px;
-  background-image: url(../img/footer/logo-goddard.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   @include media(tablet) {
     width: 142px;
     height: 38px;
-    background-image: url(../img/footer/logo-goddard-768.webp);
   }
 }
 .trademarks-two {
@@ -136,14 +127,7 @@
   width: 50%;
   display: flex;
   align-items: center;
-  div {
-    width: 51px;
-    height: 51px;
-    background-image: url(../img/footer/logo-superior.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+
   p {
     font-family: $font-family-second;
     font-weight: 700;
@@ -164,18 +148,15 @@
     width: 40%;
   }
 }
+.footer-logo-superior {
+  width: 51px;
+  height: 51px;
+}
 .logo-macro-box {
   width: 50%;
   display: flex;
   align-items: center;
-  div {
-    width: 51px;
-    height: 51px;
-    background-image: url(../img/footer/logo-macro.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+
   p {
     font-family: $font-family-second;
     font-weight: 700;
@@ -195,6 +176,10 @@
   @include media(desktop) {
     width: 40%;
   }
+}
+.footer-logo-macro {
+  width: 51px;
+  height: 51px;
 }
 .footer-support {
   padding: 40px 0 26px;
@@ -227,14 +212,10 @@
     margin-bottom: 34px;
   }
 }
-.footer-support-img {
+.footer-logo-eicc {
   width: 248px;
   height: 66px;
   margin: 0 auto;
-  background-image: url(../img/footer/logo-eicc.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   @include media(max-tablet) {
     width: 298px;
     height: 79px;
@@ -242,7 +223,6 @@
   @include media(desktop) {
     width: 350px;
     height: 93px;
-    background-image: url(../img/footer/logo-eicc-2.webp);
   }
 }
 .footer-legal {
@@ -304,17 +284,5 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 1;
-  }
-}
-.footer-support-img,
-.logo-rego,
-.logo-goddard,
-.logo-macro-box,
-.logo-superior-box {
-  transition: all 300ms ease;
-
-  &:hover,
-  &:active {
-    transform: scale(1.05);
   }
 }
