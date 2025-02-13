@@ -18,7 +18,9 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       // використовуємо fast-glob для пошуку файлів
-      input: fg.sync('./src/*.html'), // використовуємо синхронний метод
+      // input: fg.sync('./src/*.html'), // використовуємо синхронний метод
+      // Враховуємо всі HTML-файли у підпапках
+      input: fg.sync(['./src/*.html', './src/pages/*.html']),
     },
   },
   plugins: [
