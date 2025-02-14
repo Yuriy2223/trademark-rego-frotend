@@ -1,7 +1,222 @@
 @use './common/index' as *;
 
-.about {
+.about-container {
+  padding: 0;
+}
+.about-img-wrapper {
+  background-color: $color-light-blue;
+}
+.about-bagraund-img {
   width: 100%;
-  height: 100px;
+  height: 142px;
+  margin: 0 auto;
+  @include media(tablet) {
+    height: 290px;
+  }
+  @include media(max-tablet) {
+    height: 372px;
+  }
+  @include media(desktop) {
+    height: 500px;
+    margin: 0 auto;
+  }
+}
+.about-container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 20px 16px 40px;
+  @include media(tablet) {
+    padding: 40px 50px;
+    gap: 20px;
+  }
+  @include media(max-tablet) {
+    padding: 40px;
+    gap: 20px 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @include media(desktop) {
+    padding: 50px 32px;
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.about-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.43;
+  color: $color-primary;
+  margin-bottom: 12px;
+  @include media(tablet) {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  @include media(max-tablet) {
+    font-size: 32px;
+    line-height: 1.6;
+    margin: 0 auto;
+  }
+  @include media(desktop) {
+    font-size: 38px;
+    line-height: 1.33;
+    margin: 0 auto;
+  }
+}
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.33;
+  color: $color-grey;
+  @include media(tablet) {
+    font-size: 18px;
+  }
+  @include media(max-tablet) {
+    font-size: 18px;
+  }
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 1.71;
+  }
+}
+.text-about {
+  @include media(max-tablet) {
+    width: calc(50% - 16px);
+  }
+  @include media(desktop) {
+    width: calc(50% - 16px);
+  }
+}
+.about-inner {
+  width: 100%;
+  @include media(max-tablet) {
+    width: calc(50% - 16px);
+  }
+  @include media(desktop) {
+    width: calc(50% - 16px);
+  }
+}
+.about-subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.29;
+  color: $color-grey;
+  text-align: center;
+
+  @include media(tablet) {
+    font-size: 22px;
+  }
+  @include media(max-tablet) {
+    font-size: 24px;
+  }
+  @include media(desktop) {
+    font-size: 26px;
+  }
+}
+.about-wrapper-img-text {
+  display: flex;
+  gap: 13px;
+  @include media(tablet) {
+    gap: 16px;
+  }
+  @include media(max-tablet) {
+    gap: 16px;
+  }
+  @include media(desktop) {
+    gap: 20px;
+  }
+}
+.about-img-10 {
+  width: 56px;
+  height: 60px;
+  @include media(desktop) {
+    width: 68px;
+    height: 72px;
+  }
+}
+.about-accost-wrapper {
+  margin-top: 20px;
+}
+.about-accost-btn {
+  border-radius: 4px;
+  width: 301px;
+  height: 36px;
   background-color: $color-primary;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.29;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &:hover,
+  &:active {
+    background-color: $color-green;
+  }
+  @include media(mobile) {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  @include media(tablet) {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  @include media(max-tablet) {
+    font-size: 18px;
+    margin-left: 107%;
+  }
+  @include media(desktop) {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 121%;
+  }
+}
+
+.about-container-content {
+  @include media(max-tablet) {
+    .ab-1 {
+      order: 1;
+    }
+    .ab-2 {
+      order: 2;
+    }
+    .ab-3 {
+      order: 4;
+    }
+    .ab-4 {
+      order: 3;
+    }
+    .ab-5 {
+      order: 5;
+    }
+    .ab-6 {
+      order: 6;
+    }
+  }
+
+  @include media(desktop) {
+    .ab-1 {
+      order: 1;
+    }
+    .ab-2 {
+      order: 2;
+    }
+    .ab-3 {
+      order: 4;
+    }
+    .ab-4 {
+      order: 3;
+    }
+    .ab-5 {
+      order: 5;
+    }
+    .ab-6 {
+      order: 6;
+    }
+  }
 }
