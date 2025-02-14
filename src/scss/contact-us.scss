@@ -1,0 +1,414 @@
+@use './common/index' as *;
+
+.contact-us-section {
+  background-color: $color-white;
+}
+.contact-us-container {
+  padding: 30px 16px;
+  @include media(tablet) {
+    padding: 40px;
+  }
+  @include media(max-tablet) {
+    padding: 40px;
+  }
+  @include media(desktop) {
+    padding: 40px;
+  }
+}
+.contact-us-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.8;
+  color: $color-primary;
+  text-align: center;
+  margin-bottom: 10px;
+  @include media(tablet) {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  @include media(max-tablet) {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  @include media(desktop) {
+    font-size: 36px;
+    line-height: 0.44;
+    margin-bottom: 30px;
+  }
+}
+.border-line {
+  border: none;
+  height: 1px;
+  background-color: $color-soft-blue;
+  width: 100%;
+}
+.contact-us-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  @include media(tablet) {
+    gap: 40px;
+  }
+  @include media(max-tablet) {
+    gap: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  @include media(desktop) {
+    margin-top: 30px;
+    gap: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 68px;
+  }
+}
+.contact-form-wrapper {
+  width: 100%;
+  @include media(mobile) {
+    padding-top: 16px;
+  }
+  @include media(tablet) {
+    width: 560px;
+    margin: 0 auto;
+    padding-top: 22px;
+  }
+  @include media(max-tablet) {
+    width: 458px;
+  }
+  @include media(desktop) {
+    width: 560px;
+  }
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  @include media(mobile) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid $color-soft-blue;
+  }
+  @include media(tablet) {
+    gap: 16px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $color-soft-blue;
+  }
+  @include media(max-tablet) {
+    gap: 20px;
+  }
+  @include media(desktop) {
+    gap: 20px;
+  }
+}
+.contact-form-label {
+  display: block;
+  outline: none;
+  font-family: $font-family-primary;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $color-primary;
+  @include media(tablet) {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  @include media(max-tablet) {
+    font-size: 18px;
+  }
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+.contact-form-input {
+  width: 100%;
+  height: 40px;
+}
+.contact-form-textarea {
+  width: 100%;
+  height: 204px;
+  resize: none;
+}
+.contact-form-input,
+.contact-form-textarea {
+  outline: none;
+  color: $color-primary;
+  border: 1px solid transparent;
+  background-color: $color-bg-input;
+  border-radius: 4px;
+  padding: 5px 12px;
+  transition: all 300ms ease;
+  font-size: 16px;
+
+  &:hover,
+  &:focus {
+    border-color: $color-primary;
+  }
+
+  &.error {
+    border-color: red;
+  }
+
+  @include media(tablet) {
+    font-size: 18px;
+  }
+  @include media(max-tablet) {
+    font-size: 20px;
+  }
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+.checkbox-container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding-top: 12px;
+  margin-bottom: 30px;
+  @include media(tablet) {
+    width: 560px;
+    margin: 0 auto 30px;
+  }
+  @include media(max-tablet) {
+    width: 460px;
+  }
+  @include media(desktop) {
+    width: 560px;
+  }
+}
+.checkbox-input {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid $color-primary;
+  border-radius: 3px;
+  background-color: $color-white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+  &:checked {
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
+
+  &:checked::before {
+    content: '✔';
+    color: $color-white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+    text-align: center;
+
+    @include media(desktop) {
+      font-size: 16px;
+    }
+  }
+
+  @include media(desktop) {
+    width: 20px;
+    height: 20px;
+  }
+}
+.checkbox-label {
+  font-family: $font-family-primary;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.4;
+  color: $color-primary;
+  @include media(tablet) {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  @include media(max-tablet) {
+    font-size: 14px;
+    line-height: 1.17;
+  }
+  @include media(desktop) {
+    font-size: 14px;
+    line-height: 1.17;
+  }
+}
+.submit-btn {
+  border-radius: 4px;
+  width: 346px;
+  height: 44px;
+  background-color: $color-primary;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  border: none;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+
+  &:hover:not(:disabled),
+  &:active:not(:disabled) {
+    background-color: $color-green;
+  }
+
+  &:disabled {
+    background-color: $color-bg;
+    cursor: not-allowed;
+    position: relative;
+  }
+
+  &:disabled::after {
+    content: 'Спочатку заповніть форму';
+    position: absolute;
+    top: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+  }
+
+  &:disabled:hover::after {
+    opacity: 1;
+  }
+
+  @include media(max-tablet) {
+    font-size: 18px;
+  }
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+.support-service-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  @include media(tablet) {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  @include media(max-tablet) {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  @include media(desktop) {
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+.support-service-svg {
+  width: 32px;
+  height: 32px;
+  fill: $color-primary;
+  @include media(tablet) {
+    width: 64px;
+    height: 64px;
+  }
+  @include media(max-tablet) {
+    width: 64px;
+    height: 64px;
+  }
+  @include media(desktop) {
+    width: 64px;
+    height: 64px;
+  }
+}
+.support-service-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.8;
+  text-align: center;
+  color: $color-primary;
+  @include media(tablet) {
+    font-size: 30px;
+  }
+  @include media(max-tablet) {
+    font-size: 30px;
+  }
+  @include media(desktop) {
+    font-size: 32px;
+  }
+}
+.support-service-inner {
+  border-radius: 10px;
+  width: 342px;
+  background-color: $color-form;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  @include media(mobile) {
+    margin: 0 auto;
+  }
+  @include media(tablet) {
+    width: 520px;
+    margin: 0 auto;
+    padding: 40px 60px;
+  }
+  @include media(max-tablet) {
+    width: 430px;
+    padding: 40px 38px;
+  }
+  @include media(desktop) {
+    width: 560px;
+    padding: 40px 52px;
+  }
+}
+.support-service-address {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.support-service-subtitle,
+.support-service-address-text,
+.support-service-link {
+  font-size: 14px;
+  line-height: 1.4;
+  color: $color-primary;
+  @include media(tablet) {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  @include media(max-tablet) {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  @include media(desktop) {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+.support-service-subtitle {
+  font-weight: 700;
+  text-align: center;
+}
+.support-service-address-text {
+  font-weight: 700;
+  font-style: normal;
+}
+.support-service-link {
+  font-weight: 400;
+}
+.support-service-one {
+  margin: 0 0 20px;
+}
+
+.required {
+  color: red;
+}
+
+.contact-form-input:-webkit-autofill,
+.contact-form-textarea:-webkit-autofill {
+  -webkit-text-fill-color: $color-primary !important;
+  background-color: $color-bg-input !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
