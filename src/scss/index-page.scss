@@ -416,8 +416,8 @@
 
   &:hover,
   &:active {
-    color: $color-light-red;
-    text-decoration: underline;
+    color: $color-green;
+    // text-decoration: underline;
   }
 
   @include media(tablet) {
@@ -443,8 +443,8 @@
 
   &:hover,
   &:active {
-    color: $color-light-red;
-    text-decoration: underline;
+    color: $color-green;
+    // text-decoration: underline;
   }
   @include media(tablet) {
     font-size: 16px;
