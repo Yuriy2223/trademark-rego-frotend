@@ -116,77 +116,123 @@
 </header>
 
     <main>
-      <section class="about-section">
-  <div class="about-img-wrapper">
-    <div class="container about-img-container">
-      <picture>
-        <source
-          srcset="../img/about/about-768-1440.webp"
-          media="(min-width: 1024px)" />
-        <img
-          src="../img/about/about-375-768.webp"
-          alt="Картинка товару"
-          class="about-bagraund-img" />
-      </picture>
-    </div>
-  </div>
+      <section class="contact-us-section">
+  <div class="container contact-us-container">
+    <h1 class="contact-us-title">Зв’яжіться з нами:</h1>
+    <hr class="border-line" />
+    <div class="contact-us-inner">
+      <div class="contact-form-wrapper">
+        <form id="contactForm" class="contact-form">
+          <label class="contact-form-label" for="topic">
+            Тема:<span class="required">*</span>
+            <input
+              class="contact-form-input"
+              type="text"
+              id="topic"
+              name="topic"
+              required />
+          </label>
 
-  <div class="container about-container">
-    <div class="about-container-content">
-      <h1 class="about-title ab-1">
-        LPG, Cryogenic & LNG продукти для глобального ринку
-      </h1>
-      <div class="about-text text-about ab-2">
-        REGO з гордістю пропонує найсучасніше обладнання для LPG/NH³/кріогенної
-        та LNG промисловості. З огляду на те, що світ все більше зосереджується
-        на альтернативних видах палива, REGO з гордістю пропонує найсучасніше
-        обладнання для транспортних засобів, що працюють на зрідженому
-        природному газі. Ми є постачальником арматури номер один для ринку СПГ,
-        що значно зростає. REGO надає своїм клієнтам продукцію найвищої якості
-        через нашу міжнародну дистриб’юторську мережу та регіональні офіси в
-        Латинській Америці, Європі та Азії. Маючи чотири найсучасніші виробничі
-        потужності в Північній Кароліні, ми постійно розширюємо асортимент
-        продукції, щоб задовольнити потреби нових ринків LPG/NH³/Кріогенний і
-        LNG.
-      </div>
-      <div class="about-inner ab-3">
-        <h2 class="about-subtitle">Зроблено в США</h2>
-        <div class="about-text">
-          Продукція REGO ® виробляється на чотирьох підприємствах у штаті
-          Північна Кароліна, США. Лише матеріали найвищої якості
-          використовуються в усіх продуктах REGO ® . В процесі обробки
-          використовуються робототехніка, обробка з ЧПУ та інтегроване
-          комп’ютерне виробництво для досягнення строгих стандартів.
-        </div>
-      </div>
-      <div class="about-inner ab-4">
-        <h2 class="about-subtitle">Перевірено на найвищу якість</h2>
-        <div class="about-wrapper-img-text">
-          <img
-            class="about-img-10"
-            src="../img/about/about-10.webp"
-            alt="REGO продукт" />
-          <div class="about-text">
-            Усі продукти проходять 100% тестування для надійної роботи. Об’єкти
-            можуть похвалитися власною випробувальною лабораторією з робочим
-            резервуарним парком і лініями високого тиску, що дозволяє інженерам
-            завершувати проекти та перевіряти продуктивність на місці.
-            Складальні потужності та випробувальні лабораторії сертифіковані UL®
-            відповідно до ISO9001 .
+          <label class="contact-form-label" for="message">
+            Повідомлення:<span class="required">*</span>
+            <textarea
+              class="contact-form-textarea"
+              id="message"
+              name="message"
+              required></textarea>
+          </label>
+
+          <label class="contact-form-label" for="company">
+            ПІП / Назва компанії:<span class="required">*</span>
+            <input
+              class="contact-form-input"
+              type="text"
+              id="company"
+              name="company"
+              required />
+          </label>
+
+          <label class="contact-form-label" for="email">
+            Адреса електронної пошти:<span class="required">*</span>
+            <input
+              class="contact-form-input"
+              type="email"
+              id="email"
+              name="email"
+              required />
+          </label>
+
+          <label class="contact-form-label" for="phone">
+            Телефон:<span class="required">*</span>
+            <input
+              class="contact-form-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              pattern="\+?[0-9\s\-\(\)]{7,15}"
+              title="Введіть коректний номер
+            телефону" />
+          </label>
+
+          <div class="checkbox-container">
+            <input
+              class="checkbox-input"
+              type="checkbox"
+              id="consent"
+              name="consent" />
+            <label class="checkbox-label" for="consent">
+              Я підтверджую свою згоду та ознайомлення, я погоджуюся що надані
+              мною дані збиратимуться та зберігатимуться в електронному вигляді.
+              Мої дані використовуються виключно для обробки та відповіді на мій
+              запит. Надсилаючи форму запиту, я погоджуюся на обробку.
+            </label>
           </div>
-        </div>
+
+          <button class="submit-btn" id="submitBtn" type="submit" disabled>
+            Направити звернення
+          </button>
+        </form>
       </div>
-      <div class="about-inner ab-5">
-        <h2 class="about-subtitle">Глобальна дистриб'юторська мережа</h2>
-        <div class="about-text">
-          Клапани та регулятори REGO ® продаються через мережу авторизованих
-          дистриб’юторів по всьому світу. Крім того, RegO® управляє
-          дистриб’юторськими центрами в Німеччині, Китаї та Мексиці, які
-          постачають продукцію та підтримують наші глобальні ринки.
+
+      <div class="support-service-block">
+        <div class="support-service-title-wrapper">
+          <svg class="support-service-svg">
+            <use href="/trademark-rego-frotend/assets/sprite-BAZhuq9R.svg#service"></use>
+          </svg>
+          <h2 class="support-service-title">Служба підтримки</h2>
         </div>
-      </div>
-      <div class="about-accost-wrapper ab-6">
-        <a class="about-accost-btn" href="#">Зверніться до REGO Україна</a>
+        <div class="support-service-inner">
+          <h3 class="support-service-subtitle">
+            ТОВ «УКРАЇНСЬКІ ПАЛИВНІ СИСТЕМИ»
+          </h3>
+          <h3 class="support-service-subtitle support-service-one">
+            LLC “UKRAINIAN FUELING SYSTEM”
+          </h3>
+          <address class="support-service-address">
+            <p class="support-service-address-text">
+              <a
+                class="support-service-link"
+                href="https://www.google.com/maps/search/?api=1&query=01042,+Україна,+місто+Київ,+вулиця+Саперне+Поле,+будинок+9а,+офіс+8"
+                target="_blank"
+                >01042, Україна, місто Київ, вулиця Саперне Поле, будинок, 9а,
+                офіс, 8</a
+              >
+            </p>
+            <p class="support-service-address-text">
+              Тел:
+              <a class="support-service-link" href="tel:+380979041742"
+                >+380 (97) 904-17-42</a
+              >
+            </p>
+            <p class="support-service-address-text">
+              Електронна пошта:
+              <a class="support-service-link" href="mailto:dddddd@gmail.com"
+                >dddddd@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
       </div>
     </div>
   </div>
