@@ -20,9 +20,6 @@
 .product-card-wrapper {
   display: flex;
   flex-direction: column;
-  // gap: 32px;
-  // @include media(tablet) {
-  // }
   @include media(max-tablet) {
     flex-direction: row;
     justify-content: space-between;
@@ -120,8 +117,6 @@
   line-height: 1.2;
   color: $color-primary;
   margin-bottom: 20px;
-  @include media(tablet) {
-  }
   @include media(max-tablet) {
     margin-bottom: 16px;
   }
@@ -145,8 +140,6 @@
     gap: 4px 20px;
   }
 }
-// .product-card-tags-item {
-// }
 .tag-item-link {
   font-weight: 400;
   font-size: 14px;
@@ -178,12 +171,6 @@
   width: 343px;
   background-color: $color-white;
   margin: 20px auto;
-  @include media(tablet) {
-  }
-  @include media(max-tablet) {
-  }
-  @include media(desktop) {
-  }
 }
 .search-wrapper-svg {
   display: flex;
@@ -229,9 +216,8 @@
 /***************** F i l t e r *******************/
 
 .product-card-filter-wrapper {
-  width: 250px; /****/
+  width: 250px;
   position: relative;
-  // border: 1px solid red;
   padding: 16px 12px;
   margin-bottom: 20px;
   @include media(tablet) {
@@ -252,7 +238,7 @@
   border-radius: 6px;
   width: 108px;
   height: 30px;
-  background-color: rgba(166, 202, 225, 0.47);
+  background-color: $color-light-blue;
   text-align: center;
 
   &:hover {
@@ -305,7 +291,7 @@
 }
 .filter-menu-item.filter-menu-item-open .filter-options-list {
   display: block;
-  max-height: 200px; /* Можна підлаштувати */
+  max-height: 200px;
 }
 .filter-options-input {
   position: absolute;
@@ -352,7 +338,6 @@ table {
   }
   @include media(desktop) {
     width: 900px;
-    // margin: 0 auto;
     font-size: 16px;
   }
 }
@@ -467,15 +452,11 @@ tr:nth-child(even) {
     padding: 40px 60px;
   }
   @include media(max-tablet) {
-    // width: 430px;
-    // padding: 40px 38px;
     width: 560px;
     padding: 40px 52px;
     margin: 0 auto;
   }
   @include media(desktop) {
-    // width: 560px;
-    // padding: 40px 52px;
     width: 430px;
     padding: 40px 38px;
   }
