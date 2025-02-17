@@ -5,8 +5,8 @@
     <link rel="icon" type="image/webp" href="/trademark-rego-frotend/assets/logo-375-Qr0LcVwD.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REGO</title>
-    <script type="module" crossorigin src="/trademark-rego-frotend/assets/main-BCjj5O2C.js"></script>
-    <link rel="stylesheet" crossorigin href="/trademark-rego-frotend/assets/main-D6ZrWSA7.css">
+    <script type="module" crossorigin src="/trademark-rego-frotend/assets/main-BacJuCAA.js"></script>
+    <link rel="stylesheet" crossorigin href="/trademark-rego-frotend/assets/main-BGHdkjEX.css">
   </head>
   <body>
     <header class="header">
@@ -50,10 +50,12 @@
       <nav class="nav-menu">
         <ul class="menu-list">
           <li>
-            <a href="/products.html" class="menu-link">Продукти</a>
+            <a href="/product-category.html" class="menu-link">Продукти</a>
           </li>
           <li>
-            <a href="/certificates.html" class="menu-link">Сертифікати</a>
+            <a href="/certificate-category.html" class="menu-link"
+              >Сертифікати</a
+            >
           </li>
           <li>
             <a href="/documentation.html" class="menu-link">Документація</a>
@@ -86,10 +88,12 @@
         </button>
         <ul class="burger-menu-list">
           <li>
-            <a href="/products.html" class="burger-menu-link">Продукти</a>
+            <a href="/product-category.html" class="burger-menu-link"
+              >Продукти</a
+            >
           </li>
           <li>
-            <a href="/certificates.html" class="burger-menu-link"
+            <a href="/certificate-category.html" class="burger-menu-link"
               >Сертифікати</a
             >
           </li>
@@ -116,72 +120,50 @@
 </header>
 
     <main>
-      <section class="product-card-section">
-  <div class="product-card-section-inner">
-    <div class="product-card-container-img">
-      <div class="product-card-inner-img">
-        <picture>
-          <!-- <source
-            srcset="/img/product-card/hydrogen-1440.webp"
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="/img/product-card/hydrogen-768-1024.webp"
-            media="(min-width: 1024px)"
-          />
-          <source
-            srcset="/img/product-card/hydrogen-768-1024.webp"
-            media="(min-width: 768px)"
-          /> -->
-          <img
-            src="/trademark-rego-frotend/assets/spg-ta93RB-8.webp"
-            alt="Картинка товару"
-            class="product-card-img" />
-        </picture>
-      </div>
-    </div>
-
-    <div class="product-card-container-content">
-      <div class="product-card-inner-content">
-        <h1 class="product-card-title">СПГ</h1>
-        <h2 class="product-card-subtitle">Паливні компоненти</h2>
-        <div class="product-card-btn-box">
-          <a class="product-card-btn" href="#">СПГ документація</a>
-          <a class="product-card-btn" href="#">Отримати консультацію</a>
-        </div>
-      </div>
+      <section class="certificates-section">
+  <div class="certificates-section-img">
+    <div class="certificates-container-img">
+      <img
+        src="/trademark-rego-frotend/assets/certificates-img-Dq765iUF.jpg"
+        alt="Картинка Сертифікатів"
+        class="certificates-hero-img" />
     </div>
   </div>
 
-  <div class="container container-product-card-list">
-    <ul class="product-card-list">
-      <li class="product-card-item">
-        <a href="#" class="product-card-link">
-          <img
-            src="/trademark-rego-frotend/assets/proba-card-BlDnxSt9.png"
-            alt="Картинка товару"
-            class="product-card-imgages" />
-          <div class="product-card-text-wrap">
-            <p>Станція контролю тиску - подача газоподібного кисню</p>
-          </div>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="container">
-    <div class="pagination-container">
-      <button id="prevPage" class="pagination-btn" disabled>
-        <svg>
-          <use href="/trademark-rego-frotend/assets/sprite-BAZhuq9R.svg#arrow-prev"></use>
-        </svg>
-      </button>
-      <div id="paginationNumbers" class="pagination-numbers"></div>
-      <button id="nextPage" class="pagination-btn">
-        <svg>
-          <use href="/trademark-rego-frotend/assets/sprite-BAZhuq9R.svg#arrow-next"></use>
-        </svg>
-      </button>
+  <div class="certificates-section-content">
+    <div class="certificates-container-content">
+      <h1 class="certificates-title">Сертифікати на продукцію</h1>
+      <h2 class="certificates-subtitle">Промислова надійність</h2>
+      <ul class="certificates-list-btn">
+        <li>
+          <a
+            class="certificates-link-btn"
+            href="/certificate-subcategory-lpg.html"
+            >LPG сертифікати</a
+          >
+        </li>
+        <li>
+          <a
+            class="certificates-link-btn"
+            href="/certificate-subcategory-cryogenic.html">
+            Кріогенні / LNG сертифікати</a
+          >
+        </li>
+        <li>
+          <a
+            class="certificates-link-btn"
+            href="/certificate-subcategory-spg.html">
+            LNG ECE R110 сертифікати</a
+          >
+        </li>
+        <li>
+          <a
+            class="certificates-link-btn"
+            href="/certificate-subcategory-hydrogen.html"
+            >Водневі сертифікати</a
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </section>
