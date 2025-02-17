@@ -1,0 +1,620 @@
+{
+  "page": 1,
+  "perPage": 12,
+  "totalPages": 8,
+  "results": [
+    {
+      "id": 1,
+      "title": "Станція контролю тиску",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Подача газоподібного кисню"
+    },
+    {
+      "id": 2,
+      "title": "Газовий редуктор",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Контроль подачі газу"
+    },
+    {
+      "id": 3,
+      "title": "Система подачі азоту",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Забезпечення стабільності тиску"
+    },
+    {
+      "id": 4,
+      "title": "Регулюючий клапан",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Контроль подачі кисню"
+    },
+    {
+      "id": 5,
+      "title": "Кріогенний резервуар",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Зберігання рідких газів"
+    },
+    {
+      "id": 6,
+      "title": "Датчик тиску",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Моніторинг рівня тиску"
+    },
+    {
+      "id": 7,
+      "title": "Аналізатор газу",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Вимірювання складу газу"
+    },
+    {
+      "id": 8,
+      "title": "Кріогенний насос",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Перекачування рідких газів"
+    },
+    {
+      "id": 9,
+      "title": "Фільтр очищення газу",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Видалення домішок з газу"
+    },
+    {
+      "id": 10,
+      "title": "Запобіжний клапан",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Захист від надмірного тиску"
+    },
+    {
+      "id": 11,
+      "title": "Компресор для газу",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Стискання газу для подачі"
+    },
+    {
+      "id": 12,
+      "title": "Газовий змішувач",
+      "image": "/img/product-card/proba-card.png",
+      "description": "Створення газових сумішей"
+    }
+  ],
+  "pages": [
+    {
+      "page": 2,
+      "results": [
+        {
+          "id": 13,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 14,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 15,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 16,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 17,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 18,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 19,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 20,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 21,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 22,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 23,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 24,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "results": [
+        {
+          "id": 25,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 26,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 27,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 28,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 29,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 30,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 31,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 32,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 33,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 34,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 35,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 36,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "results": [
+        {
+          "id": 37,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 38,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 39,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 40,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 41,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 42,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 43,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 44,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 45,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 46,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 47,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 48,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "results": [
+        {
+          "id": 49,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 50,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 51,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 52,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 53,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 54,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 55,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 56,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 57,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 58,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 59,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 60,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "results": [
+        {
+          "id": 61,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 62,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 63,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 64,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 65,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 66,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 67,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 68,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 69,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 70,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 71,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 72,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "results": [
+        {
+          "id": 80,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 81,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 382,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 83,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 84,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 85,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 86,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 87,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 88,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 89,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 90,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 91,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "results": [
+        {
+          "id": 92,
+          "title": "Станція контролю тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Подача газоподібного кисню"
+        },
+        {
+          "id": 93,
+          "title": "Газовий редуктор",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі газу"
+        },
+        {
+          "id": 94,
+          "title": "Система подачі азоту",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Забезпечення стабільності тиску"
+        },
+        {
+          "id": 95,
+          "title": "Регулюючий клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Контроль подачі кисню"
+        },
+        {
+          "id": 96,
+          "title": "Кріогенний резервуар",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Зберігання рідких газів"
+        },
+        {
+          "id": 97,
+          "title": "Датчик тиску",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Моніторинг рівня тиску"
+        },
+        {
+          "id": 98,
+          "title": "Аналізатор газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Вимірювання складу газу"
+        },
+        {
+          "id": 99,
+          "title": "Кріогенний насос",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Перекачування рідких газів"
+        },
+        {
+          "id": 100,
+          "title": "Фільтр очищення газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Видалення домішок з газу"
+        },
+        {
+          "id": 101,
+          "title": "Запобіжний клапан",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Захист від надмірного тиску"
+        },
+        {
+          "id": 102,
+          "title": "Компресор для газу",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Стискання газу для подачі"
+        },
+        {
+          "id": 103,
+          "title": "Газовий змішувач",
+          "image": "/img/product-card/proba-card.png",
+          "description": "Створення газових сумішей"
+        }
+      ]
+    }
+  ]
+}

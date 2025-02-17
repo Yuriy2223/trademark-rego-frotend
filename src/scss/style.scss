@@ -4,11 +4,11 @@
 
 @use 'index-page';
 
-@use 'products';
+@use 'product-category';
+@use 'product-subcategory';
 
-@use 'products-card';
-
-@use 'certificates';
+@use 'certificate-category';
+@use 'certificate-subcategory';
 
 @use 'documentation';
 

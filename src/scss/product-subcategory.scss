@@ -1,7 +1,5 @@
 @use './common/index' as *;
 
-/**************** Product CARD *******************/
-
 .product-card-section-inner {
   display: flex;
   flex-direction: column;
@@ -271,9 +269,6 @@
     }
   }
 }
-
-/*************** Pagination *****************/
-
 .pagination-container {
   display: flex;
   align-items: center;
@@ -288,6 +283,7 @@
   border-radius: 4px;
   width: 44px;
   height: 44px;
+
   svg {
     width: 100%;
     height: 100%;
@@ -297,6 +293,7 @@
       fill: $color-green;
     }
   }
+
   &:disabled {
     color: $color-grey;
     cursor: default;
@@ -306,25 +303,40 @@
   display: flex;
   gap: 5px;
 }
-.page-number {
+.pagination-number,
+.pagination-number-totall {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
   text-align: center;
-
   border-radius: 4px;
   width: 44px;
   height: 44px;
-
   background-color: $color-white;
   color: $color-primary;
   border: 1px solid $color-primary;
 
-  &.active {
-    background-color: $color-primary;
+  &:hover {
     color: $color-white;
+    background-color: $color-primary;
   }
 }
-.dots {
-  color: $color-grey;
+.pagination-number-active {
+  background-color: $color-primary;
+  color: $color-white;
+}
+.pagination-dots {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 4px;
+  width: 44px;
+  height: 44px;
+  background-color: $color-white;
+  color: $color-primary;
+  border: 1px solid transparent;
 }

@@ -126,14 +126,9 @@
 .mission-certifficate-img {
   width: 63px;
   height: 63px;
-  background-image: url(../img/mission/mission-375-1024.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   @include media(desktop) {
     width: 80px;
     height: 80px;
-    background-image: url(../img/mission/mission-1440.webp);
   }
 }
 .mission-certifficate-text {
@@ -416,8 +411,9 @@
 
   &:hover,
   &:active {
-    color: $color-green;
-    // text-decoration: underline;
+    // color: $color-green;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
   }
 
   @include media(tablet) {
@@ -443,8 +439,9 @@
 
   &:hover,
   &:active {
-    color: $color-green;
-    // text-decoration: underline;
+    // color: $color-green;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
   }
   @include media(tablet) {
     font-size: 16px;

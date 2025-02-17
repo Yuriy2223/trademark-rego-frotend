@@ -2,33 +2,21 @@
   <div class="product-card-section-inner">
     <div class="product-card-container-img">
       <div class="product-card-inner-img">
-        <picture>
-          <!-- <source
-            srcset="/img/product-card/hydrogen-1440.webp"
-            media="(min-width: 1440px)"
-          />
-          <source
-            srcset="/img/product-card/hydrogen-768-1024.webp"
-            media="(min-width: 1024px)"
-          />
-          <source
-            srcset="/img/product-card/hydrogen-768-1024.webp"
-            media="(min-width: 768px)"
-          /> -->
-          <img
-            src="/img/product-card/spg.webp"
-            alt="Картинка товару"
-            class="product-card-img" />
-        </picture>
+        <img
+          src="/img/product-card/medical.webp"
+          alt="Картинка товару"
+          class="product-card-img" />
       </div>
     </div>
 
     <div class="product-card-container-content">
       <div class="product-card-inner-content">
-        <h1 class="product-card-title">СПГ</h1>
-        <h2 class="product-card-subtitle">Паливні компоненти</h2>
+        <h1 class="product-card-title">Медичний</h1>
+        <h2 class="product-card-subtitle medical-subtitle">
+          Провідний постачальник медичної продукції
+        </h2>
         <div class="product-card-btn-box">
-          <a class="product-card-btn" href="#">СПГ документація</a>
+          <a class="product-card-btn" href="#">Документація Superior</a>
           <a class="product-card-btn" href="#">Отримати консультацію</a>
         </div>
       </div>
@@ -58,7 +46,13 @@
           <use href="/svg/sprite.svg#arrow-prev"></use>
         </svg>
       </button>
-      <div id="paginationNumbers" class="pagination-numbers"></div>
+      <div id="paginationNumbers" class="pagination-numbers">
+        <button class="pagination-number pagination-number-active">1</button>
+        <button class="pagination-number">2</button>
+        <button class="pagination-number">3</button>
+        <span class="pagination-dots">...</span>
+        <button class="pagination-number-totall">8</button>
+      </div>
       <button id="nextPage" class="pagination-btn">
         <svg>
           <use href="/svg/sprite.svg#arrow-next"></use>

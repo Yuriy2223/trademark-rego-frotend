@@ -251,8 +251,9 @@
 
   &:hover,
   &:active {
-    color: $color-light-red;
+    // color: $color-light-red;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
   }
   @include media(tablet) {
     font-size: 14px;
