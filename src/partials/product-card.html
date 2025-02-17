@@ -1,68 +1,274 @@
-<section class="product-card">
+<section class="product-card-section">
   <div class="container product-card-container">
-    <h1 class="product-card-title">Реле CVI (Інертний)</h1>
+    <div class="product-card-wrapper">
+      <img
+        src="/img/product-card/produkt-card-img.webp"
+        alt="Картинка продукту"
+        class="product-card-img" />
 
-    <p class="product-card-title-description">
-      1/2" CVI ручний, малий допуск, клапан без вакуумної сорочки з пробкою для
-      швидкого відкриття потоку та планом 10 кінцевих з'єднань труби
-    </p>
+      <h1 class="product-card-title">Реле CVI (Інертний)</h1>
 
-    <h2 class="product-card-subtitle">Галузі застосування</h2>
-    <div class="product-card-tags">
-      <span class="tag">Лабораторія</span>
-      <span class="tag">Медичний</span>
-      <span class="tag">Їжа та напої</span>
-      <span class="tag">Хімічна та нафтохімічна обробка</span>
-      <span class="tag">Виробництво електроніки</span>
-      <span class="tag">Промислове виробництво</span>
-      <span class="tag">Спеціальні гази</span>
-      <span class="tag">Космос/Аерокосмічна сфера/оборона</span>
-      <span class="tag">Металургія</span>
+      <p class="product-card-description">
+        1/2" CVI ручний, малий допуск, клапан без вакуумної сорочки з пробкою
+        для швидкого відкриття потоку та планом 10 кінцевих з'єднань труби
+      </p>
+
+      <!-- /***************** Tegs *******************/ -->
+      <h2 class="product-card-subtitle">Галузі застосування</h2>
+      <ul class="product-card-tags-list">
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Лабораторія</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Медичний</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Їжа та напої</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Хімічна та нафтохімічна обробка</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Виробництво електроніки</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Промислове виробництво</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Спеціальні гази</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#"
+            >Космос/Аерокосмічна сфера/оборона</a
+          >
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Металургія</a>
+        </li>
+      </ul>
+
+      <h2 class="product-card-subtitle">Супутні товари</h2>
+      <ul class="product-card-tags-list">
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Резервуари ISO (IG, LNG)</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Системи</a>
+        </li>
+        <li class="product-card-tags-item">
+          <a class="tag-item-link" href="#">Доставки рідини (IG)</a>
+        </li>
+      </ul>
     </div>
 
-    <h2 class="product-card-subtitle">Супутні товари</h2>
-    <div class="product-card-tags">
-      <span class="tag">Резервуари ISO (IG, LNG)</span>
-      <span class="tag">Системи</span>
-      <span class="tag">Доставки рідини (IG)</span>
-    </div>
-
+    <!-- /***************** S e a r c h *******************/ -->
     <div class="product-card-search-wrapper">
-      <div class="search-icon">🔍</div>
-      <input type="text" class="search-input" placeholder="" />
-      <button class="search-button">Пошук</button>
+      <div class="search-wrapper-svg">
+        <svg class="search-svg">
+          <use href="/svg/sprite.svg#search"></use>
+        </svg>
+      </div>
+      <input type="text" class="product-card-search-input" placeholder="" />
+      <button class="product-card-search-button">Пошук</button>
     </div>
 
+    <!-- /***************** F i l t e r *******************/ -->
     <div class="product-card-filter-wrapper">
-      <button class="filter-button">ФІЛЬТРИ</button>
-      <div class="filter-menu">
-        <ul class="filter-list">
-          <li class="filter-item">
-            Розмір клапану
-            <span class="dropdown-arrow">▼</span>
-          </li>
-          <ul class="checkbox-list">
-            <li class="checkbox-item">
-              <label><input type="checkbox" /> 1/2" CVI ручний</label>
+      <button class="product-card-filter-button">ФІЛЬТРИ</button>
+      <div class="filter-menu-list">
+        <div class="filter-menu-item">
+          <div class="filter-menu-title-wrapper">
+            <p class="filter-menu-title">Розмір клапану</p>
+            <svg class="filter-menu-svg">
+              <use href="/svg/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+          <ul class="filter-options-list">
+            <li class="filter-options-item">
+              <label class="filter-options-label"
+                ><input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2" CVI ручний</label
+              >
             </li>
-            <li class="checkbox-item">
-              <label><input type="checkbox" /> 40/60 труба</label>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                40/60 труба</label
+              >
             </li>
-            <li class="checkbox-item">
-              <label><input type="checkbox" /> 2 труба</label>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                2 труба</label
+              >
             </li>
-            <li class="checkbox-item">
-              <label><input type="checkbox" /> 1/2 труба</label>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2 труба</label
+              >
             </li>
           </ul>
-          <li class="filter-item">Розмір клапану ➝</li>
-          <li class="filter-item">Розмір клапану ➝</li>
-          <li class="filter-item">Розмір клапану ➝</li>
-          <li class="filter-item">Розмір клапану ➝</li>
-        </ul>
+        </div>
+        <div class="filter-menu-item">
+          <div class="filter-menu-title-wrapper">
+            <p class="filter-menu-title">Розмір клапану</p>
+            <svg class="filter-menu-svg">
+              <use href="/svg/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+          <ul class="filter-options-list">
+            <li class="filter-options-item">
+              <label class="filter-options-label"
+                ><input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2" CVI ручний</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                40/60 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                2 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2 труба</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="filter-menu-item">
+          <div class="filter-menu-title-wrapper">
+            <p class="filter-menu-title">Розмір клапану</p>
+            <svg class="filter-menu-svg">
+              <use href="/svg/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+          <ul class="filter-options-list">
+            <li class="filter-options-item">
+              <label class="filter-options-label"
+                ><input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2" CVI ручний</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                40/60 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                2 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2 труба</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="filter-menu-item">
+          <div class="filter-menu-title-wrapper">
+            <p class="filter-menu-title">Розмір клапану</p>
+            <svg class="filter-menu-svg">
+              <use href="/svg/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+          <ul class="filter-options-list">
+            <li class="filter-options-item">
+              <label class="filter-options-label"
+                ><input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2" CVI ручний</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                40/60 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                2 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2 труба</label
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="filter-menu-item">
+          <div class="filter-menu-title-wrapper">
+            <p class="filter-menu-title">Розмір клапану</p>
+            <svg class="filter-menu-svg">
+              <use href="/svg/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+          <ul class="filter-options-list">
+            <li class="filter-options-item">
+              <label class="filter-options-label"
+                ><input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2" CVI ручний</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                40/60 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                2 труба</label
+              >
+            </li>
+            <li class="filter-options-item">
+              <label class="filter-options-label">
+                <input class="filter-options-input" type="checkbox" />
+                <span class="filter-options-input-checkbox"></span>
+                1/2 труба</label
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
+    <!-- /***************** T a b l e *******************/ -->
     <div class="product-card-table-wrapper">
       <table>
         <thead>
