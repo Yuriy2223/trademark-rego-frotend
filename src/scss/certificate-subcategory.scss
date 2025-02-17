@@ -90,6 +90,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
   @include media(tablet) {
     border-radius: 10px 10px 0 0;
     height: 60px;
@@ -132,6 +133,7 @@
   @include media(desktop) {
     width: 790px;
     border-radius: 0 10px 10px 10px;
+    min-height: 382px;
   }
 }
 .category-active {
