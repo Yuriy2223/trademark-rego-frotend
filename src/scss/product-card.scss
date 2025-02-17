@@ -74,6 +74,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 // .product-card-tags-item {
 // }
@@ -84,6 +85,9 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: $color-grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /***************** T a b l e *******************/
@@ -96,7 +100,6 @@ tr {
 }
 th,
 td {
-  // border: 1px solid #ddd;
   padding: 10px;
   text-align: left;
 }
@@ -114,23 +117,25 @@ tr:nth-child(even) {
 .product-card-search-wrapper {
   display: flex;
   align-items: center;
-  border: 2px solid #1e73be;
-  border-radius: 5px;
+  border: 1px solid $color-primary;
+  border-radius: 6px;
   overflow: hidden;
-  width: 300px;
-  background-color: white;
+  width: 343px;
+  background-color: $color-white;
 }
 .search-wrapper-svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 10px;
-  border-right: 2px solid #1e73be;
+  height: 30px;
+  width: 34px;
+  border-right: 1px solid $color-primary;
+  background-color: $color-light-blue;
 }
 .search-svg {
-  width: 16px;
-  height: 16px;
-  fill: #1e73be;
+  width: 20px;
+  height: 20px;
+  fill: $color-primary;
 }
 .product-card-search-input {
   flex: 1;
@@ -139,13 +144,24 @@ tr:nth-child(even) {
   outline: none;
 }
 .product-card-search-button {
-  background-color: #d0e6fa;
+  background-color: $color-light-blue;
+
+  width: 108px;
+  height: 30px;
   border: none;
-  padding: 5px 15px;
-  color: #1e73be;
-  font-weight: bold;
-  cursor: pointer;
-  border-left: 2px solid #1e73be;
+  border-left: 1px solid $color-primary;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  color: $color-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
 }
 
 /***************** F i l t e r *******************/
@@ -169,7 +185,7 @@ tr:nth-child(even) {
   text-align: center;
 
   &:hover {
-    background: $color-primary;
+    background-color: $color-primary;
     color: $color-white;
   }
 }
