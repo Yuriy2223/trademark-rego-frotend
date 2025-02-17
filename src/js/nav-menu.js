@@ -1,14 +1,17 @@
-// document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
+  const currentPath = window.location.pathname;
 
-//   const menuLinks = document.querySelectorAll('.menu-link');
+  function setActiveClass(links, activeClass) {
+    links.forEach(link => {
+      if (link.getAttribute('href') === currentPath) {
+        link.classList.add(activeClass);
+      }
+    });
+  }
 
-//   // Отримуємо поточну URL-адресу (шлях сторінки)
-//   const currentPath = window.location.pathname;
+  const menuLinks = document.querySelectorAll('.menu-link');
+  const burgerMenuLinks = document.querySelectorAll('.burger-menu-link');
 
-//   menuLinks.forEach(link => {
-
-//     if (currentPath.includes(link.getAttribute('href').replace('../', ''))) {
-//       link.classList.add('active');
-//     }
-//   });
-// });
+  setActiveClass(menuLinks, 'menu-link-active');
+  setActiveClass(burgerMenuLinks, 'burger-menu-link-active');
+});

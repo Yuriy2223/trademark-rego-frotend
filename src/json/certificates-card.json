@@ -1,0 +1,192 @@
+{
+  "page_1": {
+    "card_1": {
+      "list_1": {
+        "title": "Сертифікати ISO. REGO GmbH Європа",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de1.pdf",
+            "link": "/certs/europe/de1.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de1.pdf",
+            "link": "/certs/europe/de2.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de1.pdf",
+            "link": "/certs/europe/de3.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de1.pdf",
+            "link": "/certs/europe/de4.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de1.pdf",
+            "link": "/certs/europe/de5.pdf"
+          }
+        ]
+      },
+      "list_2": {
+        "title": "Сертифікат ISO. REGO США",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_USA_de1.pdf",
+            "link": "/certs/usa/de.pdf"
+          }
+        ]
+      }
+    },
+
+    "card_2": {
+      "list_1": {
+        "title": "Сертифікати ISO. REGO GmbH Європа",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de2.pdf",
+            "link": "/certs/europe/de1.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de2.pdf",
+            "link": "/certs/europe/de2.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de2.pdf",
+            "link": "/certs/europe/de3.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de2.pdf",
+            "link": "/certs/europe/de4.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de2.pdf",
+            "link": "/certs/europe/de5.pdf"
+          }
+        ]
+      },
+      "list_2": {
+        "title": "Сертифікат ISO. REGO США",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_USA_de2.pdf",
+            "link": "/certs/usa/de.pdf"
+          }
+        ]
+      }
+    },
+
+    "card_3": {
+      "list_1": {
+        "title": "Сертифікати ISO. REGO GmbH Європа",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de3.pdf",
+            "link": "/certs/europe/de1.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de3.pdf",
+            "link": "/certs/europe/de2.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de3.pdf",
+            "link": "/certs/europe/de3.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de3.pdf",
+            "link": "/certs/europe/de4.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de3.pdf",
+            "link": "/certs/europe/de5.pdf"
+          }
+        ]
+      },
+      "list_2": {
+        "title": "Сертифікат ISO. REGO США",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_USA_de3.pdf",
+            "link": "/certs/usa/de.pdf"
+          }
+        ]
+      }
+    },
+
+    "card_4": {
+      "list_1": {
+        "title": "Сертифікати ISO. REGO GmbH Європа",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de4.pdf",
+            "link": "/certs/europe/de1.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de4.pdf",
+            "link": "/certs/europe/de2.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de4.pdf",
+            "link": "/certs/europe/de3.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de4.pdf",
+            "link": "/certs/europe/de4.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de4.pdf",
+            "link": "/certs/europe/de5.pdf"
+          }
+        ]
+      },
+      "list_2": {
+        "title": "Сертифікат ISO. REGO США",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_USA_de4.pdf",
+            "link": "/certs/usa/de.pdf"
+          }
+        ]
+      }
+    },
+
+    "card_5": {
+      "list_1": {
+        "title": "Сертифікати ISO. REGO GmbH Європа",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de5.pdf",
+            "link": "/certs/europe/de1.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de5.pdf",
+            "link": "/certs/europe/de2.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de5.pdf",
+            "link": "/certs/europe/de3.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de5.pdf",
+            "link": "/certs/europe/de4.pdf"
+          },
+          {
+            "name": "ISO9001-Certificate_REGO_Europe_de5.pdf",
+            "link": "/certs/europe/de5.pdf"
+          }
+        ]
+      },
+      "list_2": {
+        "title": "Сертифікат ISO. REGO США",
+        "certificates": [
+          {
+            "name": "ISO9001-Certificate_REGO_USA_d5.pdf",
+            "link": "/certs/usa/de.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "page_2": {},
+  "page_3": {},
+  "page_4": {},
+  "page_5": {}
+}

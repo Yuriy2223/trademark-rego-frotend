@@ -20,28 +20,41 @@ document.addEventListener('DOMContentLoaded', () => {
     return isValid;
   };
 
+  const updateSubmitButtonState = () => {
+    const isFormValid = Array.from(inputs).every(validateInput);
+    submitBtn.disabled = !(isFormValid && consentCheckbox.checked);
+  };
+
   inputs.forEach(input => {
-    input.addEventListener('blur', () => validateInput(input));
-    input.addEventListener('input', () => validateInput(input));
+    input.addEventListener('blur', () => {
+      validateInput(input);
+      updateSubmitButtonState();
+    });
+
+    input.addEventListener('input', () => {
+      validateInput(input);
+      input.classList.remove('error');
+      updateSubmitButtonState();
+    });
   });
 
-  consentCheckbox.addEventListener('change', () => {
-    submitBtn.disabled = !consentCheckbox.checked;
-  });
+  consentCheckbox.addEventListener('change', updateSubmitButtonState);
 
   form.addEventListener('submit', event => {
     event.preventDefault();
     const isValidForm = Array.from(inputs).every(validateInput);
     if (!isValidForm) return console.warn('Форма не відправлена через помилки');
-    let formData = {};
 
-    inputs.forEach(input => {
-      formData[input.name] = input.value.trim();
-    });
+    // const formData = Object.fromEntries(new FormData(form).entries());
+    const formData = Object.fromEntries(
+      [...new FormData(form).entries()].filter(([key]) => key !== 'consent')
+    );
 
     console.log('✅ Форма відправлена!', formData);
     alert('Ваше звернення успішно відправлено!');
+
     form.reset();
+    consentCheckbox.checked = false;
     submitBtn.disabled = true;
   });
 });
